@@ -1,11 +1,11 @@
 
-//first approach (Brute force) : simply sort the array/vector with the help of any sorting algo
-//time complexity : based on the algo
+//first approach (Brute force) : simply use the sort function and return the vector
+//time complexity : O(NlogN)
 //space complexity : O(1)
 
 
 //second approach (better) : counting the occurrences of the elements and making a customized array
-//time complexity : O(n) + O(n)
+//time complexity : O(N) + O(N)
 //space complexity : O(1)
 //code
 
@@ -41,7 +41,7 @@ public:
 
 
 //third approach (best) : 3 pointer approach
-//time complexity : O(n)
+//time complexity : O(N)
 //space complexity : O(1)
 //this problem is a variant of famous " DUTCH NATIONAL FLAG ALGORITHM "
 //code
