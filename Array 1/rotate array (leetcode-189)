@@ -64,6 +64,7 @@ public:
     void rotate(vector<int>& nums, int k) {
 
         int n = nums.size();
+        // this step below is for conditions when the value of k goes past n you know
         k %= n;
     /*as we call the reverse function below........it could have been done either way
      i.e we can reverse the two parts indivisually and at last revrse the whole vector/array
